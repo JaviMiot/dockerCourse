@@ -1,0 +1,5 @@
+services:
+    app:
+      build: .
+      environment:
+        nueva_variable: "mongodb://db:27017/test"
